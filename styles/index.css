@@ -74,6 +74,11 @@ section {
         margin: 1rem auto;
         border: none;
         background-color: rgb(185, 249, 217);
+        color: rgb(83, 103, 94);
+
+        &::placeholder {
+            color: rgb(118, 152, 136);
+        }
     }
 
     button {
